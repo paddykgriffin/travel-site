@@ -30,3 +30,4 @@ gulp.task('cssInject', ['styles'], function() {
     return gulp.src('./app/temp/main.css')
         .pipe(browserSync.stream())
 })
+
